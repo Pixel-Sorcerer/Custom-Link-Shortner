@@ -14,7 +14,7 @@ function App() {
     setResult('');
 
     try {
-      const response = await axios.post('https://custom-link-shortner.onrender.com/create', {
+      const response = await axios.post('https://lnkr.onrender.com/create', {
         originalUrl,
         customText
       }, {
