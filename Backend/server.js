@@ -38,7 +38,7 @@ app.post('/create', async (req, res) => {
 
         res.json({
             success: true,
-            shortUrl: `https://custom-link-shortner.onrender.com/${customText}`
+            shortUrl: `https://lnkr.onrender.com/${customText}`
         });
 
 
