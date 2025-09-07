@@ -38,8 +38,9 @@ app.post('/create', async (req, res) => {
 
         res.json({
             success: true,
-            shortUrl: `http://localhost:3001/${customText}`
+            shortUrl: `https://custom-link-shortner.onrender.com/${customText}`
         });
+
 
     } catch (error) {
         console.error('🔥 Route error:', error);
